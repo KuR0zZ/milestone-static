@@ -1,3 +1,29 @@
 #register-form {
     display: none;
 }
+
+.bg-image {
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    position: relative;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.c-item {
+    height: 90vh;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
